@@ -212,6 +212,8 @@ box.scrollTop=box.scrollHeight;
 });
 }
 
+// Inquiry form handling reviewed and commented
+
 function send(){
 let msg=document.getElementById("msg").value;
 let f=new FormData();
