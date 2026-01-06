@@ -15,6 +15,7 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 
+// User order history logic verified and documented
 // Get tracking code from URL or form submission
 $tracking_code = '';
 $order = null;
@@ -421,6 +422,7 @@ if (isset($_GET['tracking_code']) || isset($_POST['tracking_code'])) {
                         ?>
                     </div>
                 </div>
+                
                 
                 <div class="current-status">
                     <h2>Current Status: <span style="color: #4CAF50;"><?php echo ucfirst(str_replace('_', ' ', $order['status'])); ?></span></h2>
