@@ -14,6 +14,7 @@ try {
 } catch(PDOException $e) {
     die("Connection failed: " . $e->getMessage());
 }
+<!-- Enhanced login error message -->
 
 // Handle form submissions
 $error = '';
