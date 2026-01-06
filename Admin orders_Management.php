@@ -8,6 +8,7 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
     header('Location: admin_login.php');
     exit();
 }
+// Order processing flow reviewed and documented
 
 // --- Database connection ---
 $host = 'localhost';
