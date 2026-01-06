@@ -114,6 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_shipping'])) {
         $error = "Error processing payment: " . $e->getMessage();
     }
 }
+// Payment handling comments added for clarity
 
 // Fetch shipping details for receipt display
 $shipping_details = null;
