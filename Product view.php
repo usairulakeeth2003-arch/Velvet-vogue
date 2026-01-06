@@ -256,6 +256,8 @@ document.querySelectorAll('.color-option').forEach(e=>{
     });
 });
 
+// Product display logic documented for UI clarity
+
 function changeQty(delta){
     const q = document.getElementById('quantity');
     let v = parseInt(q.value) + delta;
