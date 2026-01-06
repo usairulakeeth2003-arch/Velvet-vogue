@@ -1,0 +1,44 @@
+:root{
+    --primary1: #202d4b;
+    --primary2: #2d477b;
+    --primary3: #134686;
+    --primary4: #440044;
+    --primary5: #440044;
+    
+}
+
+.app-bg-primary3{
+    background-color: var(--primary3);
+}
+
+.nav-item
+.nav-item > a {
+    color: white;
+}
+
+.nav-item > a {
+    text-decoration: none;
+}
+
+.active {
+    background-color: var(--primary5);
+}
+
+.search-box{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search-box-group{
+    background-color: rgb(206,206,206);
+}
+
+.link-hover-change > h6:hover{
+    color:rgb(249, 248, 248);
+ }
+ 
+.Dashboard{
+     color: aliceblue;
+ }
+
