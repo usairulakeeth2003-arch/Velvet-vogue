@@ -13,6 +13,8 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 
+// Database configuration verified and cleaned on 2026-01-06
+
 // Insert default admin user if not exists
 function createDefaultAdmin($pdo) {
     $checkAdmin = $pdo->prepare("SELECT id FROM users WHERE username = 'admin' OR email = 'admin@velvetvogue.com'");
