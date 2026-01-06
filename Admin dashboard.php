@@ -514,6 +514,8 @@ function getStatusBadge($status) {
             <h2>Velvet Vogue</h2>
             <p>Admin Dashboard</p>
         </div>
+        <!-- Updated on 2026-01-06: Minor UI improvement for admin dashboard -->
+
         <div class="sidebar-menu">
             <ul>
                 <li><a href="#" class="active"><i class="fas fa-home"></i> <span>Dashboard</span></a></li>
