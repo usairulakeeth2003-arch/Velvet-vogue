@@ -54,6 +54,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['tracking_code'])) {
     }
 }
 
+// Product tracking functionality reviewed
+
 // helper to compute progress percentage
 function compute_progress($status_key, $status_stages) {
     $keys = array_keys($status_stages);
