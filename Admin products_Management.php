@@ -14,6 +14,7 @@ if (!isset($pdo)) {
         die("Connection failed: " . $e->getMessage());
     }
 }
+// Added note for future product validation enhancement
 
 // Handle form actions
 $action = $_GET['action'] ?? '';
